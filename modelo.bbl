@@ -1,0 +1,76 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v<VERSION> }
+
+\bibitem[Abadi et al. 2015]{tensorflow2015}
+\abntrefinfo{Abadi et al.}{ABADI et al.}{2015}
+{ABADI, M. et al. \emph{{TensorFlow}: Large-Scale Machine Learning on
+  Heterogeneous Systems}. 2015.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/tensorflow\-.org\-/$>$}{http://tensorflow.org/}.}
+
+\bibitem[Burden e Faires 2010]{burfa}
+\abntrefinfo{Burden e Faires}{BURDEN; FAIRES}{2010}
+{BURDEN, R.~L.; FAIRES, J.~D. \emph{Numerical Analysis}. 9. ed. [S.l.]: CENGAGE
+  Learning, 2010.}
+
+\bibitem[Cybenko 1989]{cybenko}
+\abntrefinfo{Cybenko}{CYBENKO}{1989}
+{CYBENKO, G. Approximation by superpositions of a sigmoidal function.
+\emph{Mathematics of Control, Signals, and Systems}, v.~2, p. 303--314, 1989.}
+
+\bibitem[Fan 2014]{wfan}
+\abntrefinfo{Fan}{FAN}{2014}
+{FAN, M. \emph{How and Why to Use Stochastic Gradient Descent?} 2014.
+  \url{http://anson.ucdavis.edu/~minjay/SGD.pdf}.}
+
+\bibitem[James 2011]{bajmes}
+\abntrefinfo{James}{JAMES}{2011}
+{JAMES, B.~R. \emph{Probabilidade: Um Curso em Nível Intermediário}. 3. ed.
+  [S.l.]: IMPA, 2011.}
+
+\bibitem[Kingma e Ba 2014]{adam}
+\abntrefinfo{Kingma e Ba}{KINGMA; BA}{2014}
+{KINGMA, D.~P.; BA, J. Adam: A method for stochastic optimization.
+2014.}
+
+\bibitem[Mitchell 1997]{mitchell}
+\abntrefinfo{Mitchell}{MITCHELL}{1997}
+{MITCHELL, T.~M. \emph{Machine Learning}. 1. ed. [S.l.]: The McGraw-Hill
+  Companies, 1997.}
+
+\bibitem[Ng 2012]{ng}
+\abntrefinfo{Ng}{NG}{2012}
+{NG, A. \emph{CS229 Lecture Notes}. 2012.
+  \url{http://cs229.stanford.edu/notes/cs229-notes1.pdf}.}
+
+\bibitem[Nocedal e Wright 2006]{nocedal}
+\abntrefinfo{Nocedal e Wright}{NOCEDAL; WRIGHT}{2006}
+{NOCEDAL, J.; WRIGHT, S.~J. \emph{Numerical Optimization}. 2. ed. [S.l.]:
+  Springer, 2006.}
+
+\bibitem[Ribeiro e Karas 2014]{elzad}
+\abntrefinfo{Ribeiro e Karas}{RIBEIRO; KARAS}{2014}
+{RIBEIRO, A.~A.; KARAS, E.~W. \emph{Otimização Contínua, Aspectos Teóricos
+  e Computacionais}. 1. ed. [S.l.]: CENGAGE Learning, 2014.}
+
+\bibitem[Shalev-Shwartz e Ben-David 2014]{shai}
+\abntrefinfo{Shalev-Shwartz e Ben-David}{SHALEV-SHWARTZ; BEN-DAVID}{2014}
+{SHALEV-SHWARTZ, S.; BEN-DAVID, S. \emph{Understading Machine Learning: From
+  Theory to Algorithms}. 1. ed. [S.l.]: Cambridge University Press, 2014.}
+
+\bibitem[Thoma 2017]{thomadata}
+\abntrefinfo{Thoma}{THOMA}{2017}
+{THOMA, M. \emph{The HASYv2 dataset}. 2017.}
+
+\bibitem[Zhang 2004]{zhang}
+\abntrefinfo{Zhang}{ZHANG}{2004}
+{ZHANG, T. Solving large scale linear prediction problems using stochastic
+  gradient descent algorithms.
+\emph{Proceedings of the 21st International Conference on Machine Learning},
+  2004.}
+
+\end{thebibliography}

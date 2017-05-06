@@ -1,0 +1,36 @@
+\changetocdepth {3}
+\select@language {brazil}
+\contentsline {chapter}{\chapternumberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{5}{chapter.1}
+\contentsline {chapter}{\chapternumberline {2}Otimiza\IeC {\c c}\IeC {\~a}o - 1\IeC {\textordfeminine } parte}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}Quadrados m\IeC {\'\i }nimos}{6}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Determinando o menor erro}{7}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}M\IeC {\'e}todo do Gradiente}{10}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Busca inexata - Condi\IeC {\c c}\IeC {\~a}o de Armijo}{12}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Converg\IeC {\^e}ncia global do m\IeC {\'e}todo do gradiente}{13}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Gradientes conjugados}{14}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Dire\IeC {\c c}\IeC {\~o}es conjugadas}{14}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}O m\IeC {\'e}todo dos gradientes conjugados}{14}{subsection.2.3.2}
+\contentsline {chapter}{\chapternumberline {3}Conceitos de estat\IeC {\'\i }stica}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}Defini\IeC {\c c}\IeC {\~o}es b\IeC {\'a}sicas}{17}{section.3.1}
+\contentsline {section}{\numberline {3.2}Vari\IeC {\'a}veis Aleat\IeC {\'o}rias}{19}{section.3.2}
+\contentsline {section}{\numberline {3.3}Valor esperado}{20}{section.3.3}
+\contentsline {chapter}{\chapternumberline {4}Otimiza\IeC {\c c}\IeC {\~a}o - 2\IeC {\textordfeminine } parte}{21}{chapter.4}
+\contentsline {section}{\numberline {4.1}Gradiente estoc\IeC {\'a}stico}{21}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Subgradiente}{21}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}O m\IeC {\'e}todo do gradiente estoc\IeC {\'a}stico}{23}{subsection.4.1.2}
+\contentsline {chapter}{\chapternumberline {5}Aprendizagem de m\IeC {\'a}quinas}{25}{chapter.5}
+\contentsline {section}{\numberline {5.1}Aprendizado supervisionado}{25}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Requisitos para o aprendizado}{25}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Minimiza\IeC {\c c}\IeC {\~a}o do risco emp\IeC {\'\i }rico}{26}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}Os m\IeC {\'e}todos do gradiente, gradiente conjugado e gradiente estoc\IeC {\'a}stico}{28}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Regress\IeC {\~a}o}{28}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Classifica\IeC {\c c}\IeC {\~a}o}{30}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Redes neurais}{34}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Como o \emph {Backpropagation} calcula o gradiente}{37}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Classifica\IeC {\c c}\IeC {\~a}o - \IeC {\'I}ris}{38}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Breve introdu\IeC {\c c}\IeC {\~a}o \IeC {\`a}s redes neurais convolucionais}{38}{subsection.5.3.3}
+\contentsline {chapter}{\chapternumberline {6}Reconhecimento de caracteres}{40}{chapter.6}
+\contentsline {section}{\numberline {6.1}Descri\IeC {\c c}\IeC {\~a}o do projeto}{40}{section.6.1}
+\contentsline {section}{\numberline {6.2}Testes}{40}{section.6.2}
+\contentsline {chapter}{Conclus\IeC {\~a}o}{43}{chapter*.3}
+\contentsline {chapter}{Refer\^encias}{44}{section*.5}
