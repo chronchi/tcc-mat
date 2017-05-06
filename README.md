@@ -2,4 +2,6 @@
 Trabalho de conclusão de curso para o bacharelado em matemática - UFPR
 ---
 
-Este repositório contêm o arquivo em .tex para o tcc. 
+TCC de tema "Estudo matemática do reconhecimento de caracteres".
+
+**trabalho ainda a ser apresentado para a banca**.
