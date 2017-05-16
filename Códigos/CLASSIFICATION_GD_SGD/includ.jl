@@ -1,0 +1,5 @@
+include("costfunction.jl")
+include("gdmulticlass.jl")
+include("kfold.jl")
+include("regular.jl")
+include("sigpred.jl")

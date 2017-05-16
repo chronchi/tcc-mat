@@ -71,13 +71,14 @@
 \title{Estudo matemático do reconhecimento
 de caracteres}
 \author[Carlos Ronchi]{Carlos Henrique Venturi Ronchi\\{\small Orientador: Abel Soares Siqueira}}
+\date{16 de maio de 2017}
 
 \institute{Universidade Federal do Paraná - UFPR}
 
 \begin{document}
 
 \begin{frame}
-    \titlepage    
+    \titlepage
 \end{frame}
 
 \begin{frame}
@@ -93,7 +94,7 @@ de caracteres}
             \item reconhecimento de caracteres.
         \end{itemize}
     \end{frame}
-    
+
     \begin{frame}{Ferramentas}
         \begin{itemize}
             \item Método do gradiente;
@@ -103,28 +104,28 @@ de caracteres}
             \item outros.
         \end{itemize}
     \end{frame}
-    
-\section{Modelagem}    
-    
+
+\section{Modelagem}
+
     \begin{frame}{Funções}
         Para a regressão (e quadrados mínimos), temos
         \begin{equation*}
             J(\theta) = \frac{1}{2} \sum_{i=1}^{m}(y^{(i)}- m_\theta(x^{(i)}))^2.
         \end{equation*}
-        
-        Já para classificação, 
+
+        Já para classificação,
         \begin{equation*}
             J(\theta) = \sum_{i=1}^{m}\left[-y^{(i)}log(m_\theta(x^{(i)})) - (1-y^{(i)})log(1-m_\theta(x^{(i)}))\right].
         \end{equation*}
     \end{frame}
-    
+
 \section{Métodos}
     \subsection{Método do gradiente}
         \begin{frame}{Método do gradiente}
             Direção de descida $-\nabla f(x)$.
-            
+
             \begin{theorem}
-                Sejam $f$ uma função convexa e $L$-Lipschitz e $x^{*} \in \arg\min_{x: \norm{x} \leq B} f(x)$. Se rodarmos o método do gradiente em $f$ para $T$ passos com $\eta = \sqrt{\dfrac{B^2}{L^2T}}$, então o vetor de retorno $\bar{x}$ satisfaz 
+                Sejam $f$ uma função convexa e $L$-Lipschitz e $x^{*} \in \arg\min_{x: \norm{x} \leq B} f(x)$. Se rodarmos o método do gradiente em $f$ para $T$ passos com $\eta = \sqrt{\dfrac{B^2}{L^2T}}$, então o vetor de retorno $\bar{x}$ satisfaz
                 \begin{equation*}
                     f(\bar{x}) - f(x^{*}) \leq \frac{BL}{\sqrt{T}}
                 \end{equation*}
@@ -154,16 +155,16 @@ de caracteres}
                 onde $x^n = x^{*}$.
             \end{theorem}
         \end{frame}
-        
+
         \begin{frame}{Método dos gradientes conjugados}
             \begin{figure}
                 \centering
                 \includegraphics[width=.8\textwidth]{gradienteconj.png}
                 \caption{Passos do método dos gradientes conjugados em verde. Em vermelho os passos do método do gradiente}
                 \label{fig:my_label}
-            \end{figure}    
+            \end{figure}
         \end{frame}
-        
+
     \subsection{Método do gradiente estocástico}
         \begin{frame}{Método do gradiente estocástico}
             Expectativa de um vetor aleatório ser um subgradiente.
@@ -179,13 +180,13 @@ de caracteres}
     \subsection{Redes Neurais}
         \begin{frame}{Redes Neurais}
             \begin{figure}[ht]
-            \centering           
+            \centering
             \includegraphics[width=.7\textwidth,height=.7\textheight]{redeneural.png}
             \caption{Esquema de uma rede neural artificial.}
             \label{fig:ann}
-            \end{figure}        
+            \end{figure}
         \end{frame}
-    
+
         \begin{frame}{Redes Neurais}
             \begin{itemize}
                 \item Backpropagation
@@ -211,7 +212,7 @@ de caracteres}
             \label{fig:samplehasy}
         \end{figure}
     \end{frame}
-    
+
     \begin{frame}{Metodologia}
         \begin{itemize}
             \item TensorFlow
@@ -219,10 +220,10 @@ de caracteres}
             \item Adam
             \item 10 épocas, batch de tamanho 500
             \item tamanho do passo de $0.0005$
-            \item ReLU (ao invés de softmax). 
-        \end{itemize}    
+            \item ReLU (ao invés de softmax).
+        \end{itemize}
     \end{frame}
-    
+
     \begin{frame}{Resultados}
         \begin{figure}[hbt]
             \centering
@@ -230,7 +231,7 @@ de caracteres}
             \caption{Imagem utilizada para teste prático do modelo.}
             \label{fig:parufpr}
         \end{figure}
-        
+
          \begin{table}[htb]
             \centering
             \caption{Letras reconhecidas da Figura \ref{fig:parufpr} pelo modelo.}
@@ -242,7 +243,7 @@ de caracteres}
             \end{tabular}
         \end{table}
     \end{frame}
-    
+
     \begin{frame}
         \begin{figure}[htb]
             \centering
@@ -250,7 +251,7 @@ de caracteres}
             \caption{Imagem para utilizar no teste do programa.}
             \label{fig:nabmat}
         \end{figure}
-        
+
         \begin{table}[htb]
             \centering
             \caption{Letras reconhecidas da Figura \ref{fig:nabmat} pelo modelo.}
@@ -264,7 +265,7 @@ de caracteres}
             \end{adjustbox}
         \end{table}
     \end{frame}
-    
+
     \begin{frame}{Próximos passos}
         \begin{itemize}
             \item Segmentação de caracteres
@@ -272,12 +273,12 @@ de caracteres}
             \item Código no Github
         \end{itemize}
     \end{frame}
-    
+
 \section{Referências}
     \begin{frame}[allowframebreaks]{Referências}
         \nocite{thomadata,tensorflow2015,zhang,elzad,nocedal,shai, ng,mitchell,wfan,julia,github,burfa,adam,bajmes,tensorflow2015}
         \printbibliography[heading=none]
     \end{frame}
-    
-   
+
+
 \end{document}
